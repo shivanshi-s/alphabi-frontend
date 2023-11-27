@@ -4,7 +4,7 @@ import HomePage from '@/components/HomePage'
 
 export default function Home() {
   return (
-    <main className="m-0 bg-black text-white">
+    <main className="m-0 bg-black text-white overflow-x-hidden">
         <Navbar/>
         <HomePage/>
     </main>
